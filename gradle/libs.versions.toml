@@ -13,8 +13,10 @@ fragmentKtx = "1.8.3"
 activityKtx = "1.9.3"
 googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
 playServicesMaps = "19.2.0"
+playServicesLocation = "21.3.0"
 
 [libraries]
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
